@@ -1,0 +1,108 @@
+#formulario{
+   width: 25%;
+   border:1px solid #ccc;
+   margin:20px;
+   padding: 20px;
+   margin: 0 auto;
+   position: bottom;
+   background: white;
+       position: absolute;
+    top: 60%;
+    left: 50%;
+   /* height: 30%;*/
+    width: 25%;
+    margin: -15% 0 0 -15%;
+   border-radius: 15px;
+ }  
+label{
+   font-size: 20px;
+   display: block;
+   width: 100%;
+}
+
+a{
+
+  text-decoration: none;
+  width: 100%;
+display: block;
+text-align: center;
+}
+#titulo{
+   font-size: 30px;
+   text-align: center;
+}
+#subtitulo{
+   font-size: 20px;
+}
+input, select,button, #boton{
+   margin-bottom: 20px;
+   width: 100%;
+   padding: 10px;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   box-sizing:border-box;
+
+}
+#boton{
+  transition: 0.3s;
+   margin-bottom: 0;
+   background: #0093cd;
+   color: #fff;
+   border: none;
+   border-radius: 10px;
+}
+#boton:hover{
+  transition: 0.3s;
+   background: #1ec6ff;
+   cursor:pointer;
+
+}
+
+
+
+.inputWithIcon input[type="text"], input[type="password"] {
+  padding-left: 35px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+        font-family:'Font Awesome 5 Free';
+        font-weight: 700;
+        text-decoration: none;
+}
+
+.inputWithIcon input[type="text"]:focus + i, input[type="password"]:focus + i{
+  color: #404040;
+}
+i{
+  font-family:'Font Awesome 5 Free';
+  font-style: normal;
+  font-size: 25px;
+}
+h1{
+
+color: white;
+font-size: 80px;
+text-align: center;
+}
+
+body{
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+}
